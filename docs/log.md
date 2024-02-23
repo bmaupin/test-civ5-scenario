@@ -9,3 +9,7 @@ Just a place to track what's been done so far in this scenario, for my own perso
 1. Open biggest Europe map
 
 1. Crop to area from Google Maps
+
+1. Install Ukraine, Russia, Belarus mods
+
+1. Add Civs to map in _Scenario Editor_
