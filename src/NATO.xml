@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2024 10:57:00 AM -->
+<GameData>
+    <Civilizations>
+        <Row>
+            <Type>CIVILIZATION_NATO</Type>
+            <Description>TXT_KEY_CIV_NATO_DESC</Description>
+            <ShortDescription>TXT_KEY_CIV_NATO_SHORT_DESC</ShortDescription>
+            <Adjective>TXT_KEY_CIV_NATO_ADJECTIVE</Adjective>
+            <Civilopedia>TXT_KEY_CIV_NATO_PEDIA</Civilopedia>
+            <CivilopediaTag>TXT_KEY_CIV5_NATO</CivilopediaTag>
+            <DefaultPlayerColor>PLAYERCOLOR_NATO</DefaultPlayerColor>
+            <ArtDefineTag>ART_DEF_CIVILIZATION_DENMARK</ArtDefineTag>
+            <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+            <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+            <ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+            <PortraitIndex>6</PortraitIndex>
+            <IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+            <AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+            <MapImage>MapEngland512.dds</MapImage>
+            <DawnOfManQuote>TXT_KEY_CIV5_NATO_TEXT_1</DawnOfManQuote>
+            <!-- TODO: replace this
+            (https://forums.civfanatics.com/threads/how-to-replace-leaderhead-3d-animations-with-2d-still-images-then-add-2d-leaders.391823/) -->
+            <DawnOfManImage>DOM_Harald.dds</DawnOfManImage>
+        </Row>
+    </Civilizations>
+    <Civilization_CityNames>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <!-- TODO: add text -->
+            <CityName>TXT_KEY_CITY_NAME_WARSAW</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_BUCHAREST</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_RIGA</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_CLUJ_NAPOCA</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_LUBLIN</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_BIALYSTOK</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_KAUNAS</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_VILNIUS</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_KOSICE</CityName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_VARNA</CityName>
+        </Row>
+    </Civilization_CityNames>
+    <Civilization_FreeBuildingClasses>
+        <!-- <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+        </Row> -->
+    </Civilization_FreeBuildingClasses>
+    <Civilization_FreeTechs>
+        <!-- <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <TechType>TECH_AGRICULTURE</TechType>
+        </Row> -->
+    </Civilization_FreeTechs>
+    <Civilization_FreeUnits />
+    <Civilization_Leaders>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <!-- TODO: replace this -->
+            <LeaderheadType>LEADER_HARALD</LeaderheadType>
+        </Row>
+    </Civilization_Leaders>
+    <Civilization_Start_Region_Priority>
+    </Civilization_Start_Region_Priority>
+    <Colors>
+        <Row>
+            <Type>COLOR_PLAYER_NATO_ICON</Type>
+            <Red>0</Red>
+            <Green>0.2862</Green>
+            <Blue>0.5647</Blue>
+            <Alpha>1</Alpha>
+        </Row>
+        <Row>
+            <Type>COLOR_PLAYER_NATO_BACKGROUND</Type>
+            <Red>1</Red>
+            <Green>1</Green>
+            <Blue>1</Blue>
+            <Alpha>1</Alpha>
+        </Row>
+    </Colors>
+    <PlayerColors>
+        <Row>
+            <Type>PLAYERCOLOR_NATO</Type>
+            <PrimaryColor>COLOR_PLAYER_NATO_ICON</PrimaryColor>
+            <SecondaryColor>COLOR_PLAYER_NATO_BACKGROUND</SecondaryColor>
+            <TextColor>COLOR_PLAYER_DARK_BLUE_TEXT</TextColor>
+        </Row>
+    </PlayerColors>
+</GameData>

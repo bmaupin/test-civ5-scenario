@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <Row Tag="TXT_KEY_CITY_NAME_WARSAW">
+            <Text>Warsaw</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_BUCHAREST">
+            <Text>Bucharest</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_RIGA">
+            <Text>Riga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_CLUJ_NAPOCA">
+            <Text>Cluj-Napoca</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_LUBLIN">
+            <Text>Lublin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_BIALYSTOK">
+            <Text>Bialystok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_KAUNAS">
+            <Text>Kaunas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_VILNIUS">
+            <Text>Vilnius</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_KOSICE">
+            <Text>Kosice</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_VARNA">
+            <Text>Varna</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_NATO_ADJECTIVE">
+            <Text>NATO</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_NATO_DESC">
+            <Text>NATO</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_NATO_SHORT_DESC">
+            <Text>NATO</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_NATO_TEXT_1">
+            <Text>North Atlantic Treaty Organization</Text>
+        </Row>
+    </Language_en_US>
+</GameData>
