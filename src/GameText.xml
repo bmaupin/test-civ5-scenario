@@ -40,5 +40,17 @@
         <Row Tag="TXT_KEY_CIV_NATO_SHORT_DESC">
             <Text>NATO</Text>
         </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STOLTENBERG_LIVED">
+            <Text>1959 - </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STOLTENBERG_NAME">
+            <Text>Jens Stoltenberg</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STOLTENBERG_SUBTITLE">
+            <Text>Secretary General of NATO</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_STOLTENBERG">
+            <Text>Jens Stoltenberg</Text>
+        </Row>
     </Language_en_US>
 </GameData>

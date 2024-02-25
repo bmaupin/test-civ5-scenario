@@ -90,8 +90,7 @@
     <Civilization_Leaders>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <!-- TODO: replace this -->
-            <LeaderheadType>LEADER_HARALD</LeaderheadType>
+            <LeaderheadType>LEADER_STOLTENBERG</LeaderheadType>
         </Row>
     </Civilization_Leaders>
     <Civilization_Start_Region_Priority>
