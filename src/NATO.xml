@@ -68,18 +68,25 @@
         </Row>
     </Civilization_CityNames>
     <Civilization_FreeBuildingClasses>
-        <!-- <Row>
+        <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
             <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-        </Row> -->
+        </Row>
     </Civilization_FreeBuildingClasses>
     <Civilization_FreeTechs>
-        <!-- <Row>
+        <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
             <TechType>TECH_AGRICULTURE</TechType>
-        </Row> -->
+        </Row>
     </Civilization_FreeTechs>
-    <Civilization_FreeUnits />
+    <Civilization_FreeUnits>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+            <Count>1</Count>
+            <UnitAIType>UNITAI_SETTLE</UnitAIType>
+        </Row>
+    </Civilization_FreeUnits>
     <Civilization_Leaders>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
@@ -88,6 +95,10 @@
         </Row>
     </Civilization_Leaders>
     <Civilization_Start_Region_Priority>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <RegionType>REGION_FOREST</RegionType>
+        </Row>
     </Civilization_Start_Region_Priority>
     <Colors>
         <Row>
