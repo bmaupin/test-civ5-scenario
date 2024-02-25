@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2/23/2024 10:57:00 AM -->
 <GameData>
     <Civilizations>
         <Row>
@@ -7,7 +6,6 @@
             <Description>TXT_KEY_CIV_NATO_DESC</Description>
             <ShortDescription>TXT_KEY_CIV_NATO_SHORT_DESC</ShortDescription>
             <Adjective>TXT_KEY_CIV_NATO_ADJECTIVE</Adjective>
-            <Civilopedia>TXT_KEY_CIV_NATO_PEDIA</Civilopedia>
             <CivilopediaTag>TXT_KEY_CIV5_NATO</CivilopediaTag>
             <DefaultPlayerColor>PLAYERCOLOR_NATO</DefaultPlayerColor>
             <ArtDefineTag>ART_DEF_CIVILIZATION_DENMARK</ArtDefineTag>

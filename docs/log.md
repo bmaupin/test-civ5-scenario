@@ -87,8 +87,20 @@ Just a place to track what's been done so far in this scenario, for my own perso
 
 1. Disable Time, Science, Cultural victories
 
-#### Create custom civ
+1. Create custom civ and leader (see below)
 
-1. Start Civ 5 SDK
+1. Create custom leader image (see below)
 
-1. Open ModBuddy
+#### Create custom civ, leader, etc
+
+See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/modders-guide-to-civilization-v.385009/)
+
+## Troubleshooting
+
+#### Game text showing up as `TXT_KEY_...` in game
+
+Before adding any text keys, first make sure they don't already exist in the game. Just do a grep, e.g.
+
+```
+$ grep TXT_KEY_CITY_NAME_WARSAW -r ~/.local/share/Steam/steamapps/common/Sid\ Meier\'s\ Civilization\ V
+```
