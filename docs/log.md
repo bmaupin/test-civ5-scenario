@@ -95,6 +95,72 @@ Just a place to track what's been done so far in this scenario, for my own perso
 
 See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/modders-guide-to-civilization-v.385009/)
 
+#### Create custom civilisation icon
+
+1. Download image you want to make icon from
+
+1. Download icon template from here: https://forums.civfanatics.com/threads/civilization-icon-template.534796/
+
+1. Open with GIMP
+
+1. Hide all but the background colour layer
+
+1. Copy background colour of source image
+
+1. Fill background colour in template with background colour of source image
+
+1. Go back to source image
+
+1. Replace background colour with transparency
+
+   1. Select the background colour with the colour picker tool
+
+   1. _Colors_ > _Color to Alpha_
+
+1. Select a rectangular portion of the source image and copy it
+
+1. Paste into the template
+
+   1. _Edit_ > _Paste As_ > _New Layer_
+
+1. Resize the new layer to 149 x 149
+
+1. Centre the new layer
+
+   1. _Tools_ > _Transform Tools_ > _Align_
+
+   1. In the left Align pane: _Relative to_ > _Image_
+
+   1. Select the layer
+
+   1. Click the button to centre horizontally, and the button to centre vertically
+
+1. Save the template as a new file
+
+1. See below to use the custom image
+
+#### Use custom image
+
+1. Resize as appropriate; see here: https://forums.civfanatics.com/threads/icon-and-screen-pixel-dimension-reference.499400/
+
+   ⓘ Many images (e.g. civilisation icons) require multiple image sizes. Make sure to export them all.
+
+1. Save as DDS
+
+   1. _File_ > _Export As_
+
+   1. Use the extension to `.dds` when saving
+
+   1. _Format_ > _RGBA8_
+
+   1. _Compression_> _DXT5_
+
+1. Import into ModBuddy
+
+   1. Right-click in the project > _Add_ > _Existing Item_
+
+   1. Click on the `.dds` file and in the _Properties_ pane set _Import into VFS_ to _True_ (this must be done for all images)
+
 ## Troubleshooting
 
 #### Game text showing up as `TXT_KEY_...` in game
