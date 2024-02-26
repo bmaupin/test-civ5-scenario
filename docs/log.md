@@ -135,6 +135,18 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
 
    1. Click the button to centre horizontally, and the button to centre vertically
 
+1. Resize oversized layers
+
+   1. One of the layers is bigger than the image. Select it and then select _Layer_ > _Crop to Selection_. Otherwise the exported image will exceed the image bounds.
+
+1. Create a new layer group
+
+   ⓘ For whatever reason, when exporting images as DDS, only the selected layer gets exported. This moves all the layers we want into a group so they can all be exported.
+
+   1. _Layer_ > _New Layer Group_
+
+   1. In the layers panel on the right, drag each layer you want in the final image, starting from the bottom-most layer (this will ensure proper order)
+
 1. Save the template as a new file
 
 1. See below to use the custom image
@@ -160,6 +172,8 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
    1. Right-click in the project > _Add_ > _Existing Item_
 
    1. Click on the `.dds` file and in the _Properties_ pane set _Import into VFS_ to _True_ (this must be done for all images)
+
+      ⚠️ If you forget this part, you will get an error: "Unable to load texture"
 
 ## Troubleshooting
 
