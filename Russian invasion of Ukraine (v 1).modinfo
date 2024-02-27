@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2bab1429-6103-49e0-bf83-2d12e06425a8" version="1">
+  <Properties>
+    <Name>Russian invasion of Ukraine</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Defend Ukraine against Russian invaders</Teaser>
+    <Description>Defend Ukraine against Russian invaders</Description>
+    <Authors>bmaupin</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="28C94B05F5E5F657F8A1346BEF04E4DC" import="1">Art/Jens_Stoltenberg_DOM.dds</File>
+    <File md5="50D6658AD09463F0DF56110EFA2666F0" import="1">Art/NATO_128.dds</File>
+    <File md5="2156F3ADED4C8538BD16863E462870A3" import="1">Art/NATO_256.dds</File>
+    <File md5="88E6D07B0E209AB38D64926BCFBF1CA2" import="1">Art/NATO_32.dds</File>
+    <File md5="350D788BCC2625F561ED37B127ACCDB4" import="1">Art/NATO_45.dds</File>
+    <File md5="39450BE3EECD23D6597D1AA89CAF713B" import="1">Art/NATO_64.dds</File>
+    <File md5="1925C2C293C7355C605F31C283C9851A" import="1">Art/NATO_80.dds</File>
+    <File md5="53430A2DE3C3EF4225DBB546C78E5AB5" import="0">Jens_Stoltenberg.xml</File>
+    <File md5="50607D7E57B95A16C70F3DDEAB084B64" import="0">GameText.xml</File>
+    <File md5="8AC7005048F76E833B8076D53699B230" import="0">NATO.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Jens_Stoltenberg.xml</UpdateDatabase>
+      <UpdateDatabase>NATO.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
