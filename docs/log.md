@@ -139,7 +139,27 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
 
    1. One of the layers is bigger than the image. Select it and then select _Layer_ > _Crop to Selection_. Otherwise the exported image will exceed the image bounds.
 
+1. Remove full white layer and gradient layer with black circle
+
+   - I'm not sure what the full white layer is for
+
+   - The gradient layer with the black circle applies a gradient to the outer ring, which seems unnecesssary
+
+1. Add transparency to the background layer
+
+   I'm not sure if or why this is necesary, but doing this allowed the game to add the ring around the outside of the icon like it does for other civs
+
+   1. Select the background layer
+
+   1. Do a circle select
+
+   1. Inverse the selection
+
+   1. Press Delete to delete everything outside the selection
+
 1. Create a new layer group
+
+   💡 For a simpler solution, just do _Image_ > _Flatten Image_
 
    ⓘ For whatever reason, when exporting images as DDS, only the selected layer gets exported. This moves all the layers we want into a group so they can all be exported.
 
