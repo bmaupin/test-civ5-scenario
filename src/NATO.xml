@@ -63,6 +63,10 @@
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
             <CityName>TXT_KEY_CITY_NAME_VARNA</CityName>
         </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <CityName>TXT_KEY_CITY_NAME_KLAIPEDA</CityName>
+        </Row>
     </Civilization_CityNames>
     <Civilization_FreeBuildingClasses>
         <Row>

@@ -22,16 +22,16 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="28C94B05F5E5F657F8A1346BEF04E4DC" import="1">Art/Jens_Stoltenberg_DOM.dds</File>
-    <File md5="50D6658AD09463F0DF56110EFA2666F0" import="1">Art/NATO_128.dds</File>
-    <File md5="2156F3ADED4C8538BD16863E462870A3" import="1">Art/NATO_256.dds</File>
-    <File md5="88E6D07B0E209AB38D64926BCFBF1CA2" import="1">Art/NATO_32.dds</File>
-    <File md5="350D788BCC2625F561ED37B127ACCDB4" import="1">Art/NATO_45.dds</File>
-    <File md5="39450BE3EECD23D6597D1AA89CAF713B" import="1">Art/NATO_64.dds</File>
-    <File md5="1925C2C293C7355C605F31C283C9851A" import="1">Art/NATO_80.dds</File>
-    <File md5="53430A2DE3C3EF4225DBB546C78E5AB5" import="0">Jens_Stoltenberg.xml</File>
-    <File md5="50607D7E57B95A16C70F3DDEAB084B64" import="0">GameText.xml</File>
-    <File md5="8AC7005048F76E833B8076D53699B230" import="0">NATO.xml</File>
+    <File md5="0947c20c8dc5719e54e9c750aeea43df" import="1">Art/Jens_Stoltenberg_DOM.dds</File>
+    <File md5="50d6658ad09463f0df56110efa2666f0" import="1">Art/NATO_128.dds</File>
+    <File md5="2156f3aded4c8538bd16863e462870a3" import="1">Art/NATO_256.dds</File>
+    <File md5="88e6d07b0e209ab38d64926bcfbf1ca2" import="1">Art/NATO_32.dds</File>
+    <File md5="350d788bcc2625f561ed37b127accdb4" import="1">Art/NATO_45.dds</File>
+    <File md5="39450be3eecd23d6597d1aa89caf713b" import="1">Art/NATO_64.dds</File>
+    <File md5="1925c2c293c7355c605f31c283c9851a" import="1">Art/NATO_80.dds</File>
+    <File md5="b944c987fed3028e4a8059477471a629" import="0">Jens_Stoltenberg.xml</File>
+    <File md5="466a048b9897ab156865cd9d18d79486" import="0">GameText.xml</File>
+    <File md5="73b6df629f87e6634ecaa0344b488b34" import="0">NATO.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
