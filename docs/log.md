@@ -42,6 +42,8 @@ Just a place to track what's been done so far in this scenario, for my own perso
 
    - in a 29x29 grid (from bottom left corner)
 
+     ⚠️ TODO: These coordinates start with an index of 1, but I think WorldBuilder starts from 0? Double-check and update as needed.
+
      - Ukraine
        - Lviv: 5,13
        - Kyiv: 14,15
@@ -60,17 +62,18 @@ Just a place to track what's been done so far in this scenario, for my own perso
        - Baranavichy?: 8,21
        - Gomel?: 15,19
      - NATO
-       - Warsaw (Poland):
+       - Warsaw (Poland): 1, 19
        - Bucharest (Romania): 7,2
-       - Riga (Latvia):
-       - ~~Chisinău?~~ (Moldova, not part of NATO)
        - Cluj-Napoca (Romania): 4,7
-       - Lublin? (Poland): 3,17
-       - Bialystok? (Poland): 4,21
-       - Kaunas? (Lithuania): 5,25
-       - Vilnius? (Lithuania): 7,25
-       - Košice? (Slovakia):
-       - Varna? (Bulgaria):
+       - Vilnius (Lithuania): 7,25
+       - Košice (Slovakia): 11,1
+       - Klaipeda (Lithuania): 27,1
+       - ~~Riga (Latvia):~~
+       - ~~Chisinău?~~ (Moldova, not part of NATO)
+       - ~~Lublin? (Poland): 3,17~~
+       - ~~Bialystok? (Poland): 4,21~~
+       - ~~Kaunas? (Lithuania): 5,25~~
+       - ~~Varna? (Bulgaria)~~
 
 1. Set game options
 
@@ -96,6 +99,8 @@ Just a place to track what's been done so far in this scenario, for my own perso
 See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/modders-guide-to-civilization-v.385009/)
 
 #### Create custom civilisation icon
+
+https://forums.civfanatics.com/threads/irkallas-firaxis-like-civilization-icon-tutorial.492821/
 
 1. Download image you want to make icon from
 
@@ -194,13 +199,3 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
    1. Click on the `.dds` file and in the _Properties_ pane set _Import into VFS_ to _True_ (this must be done for all images)
 
       ⚠️ If you forget this part, you will get an error: "Unable to load texture"
-
-## Troubleshooting
-
-#### Game text showing up as `TXT_KEY_...` in game
-
-Before adding any text keys, first make sure they don't already exist in the game. Just do a grep, e.g.
-
-```
-$ grep TXT_KEY_CITY_NAME_WARSAW -r ~/.local/share/Steam/steamapps/common/Sid\ Meier\'s\ Civilization\ V
-```
