@@ -8,14 +8,16 @@
             <Adjective>TXT_KEY_CIV_NATO_ADJECTIVE</Adjective>
             <CivilopediaTag>TXT_KEY_CIV5_NATO</CivilopediaTag>
             <DefaultPlayerColor>PLAYERCOLOR_NATO</DefaultPlayerColor>
-            <ArtDefineTag>ART_DEF_CIVILIZATION_DENMARK</ArtDefineTag>
+            <!-- This doesn't seem to serve any purpose -->
+            <ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
             <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
             <ArtStyleSuffix>_EURO</ArtStyleSuffix>
             <ArtStylePrefix>EUROPEAN </ArtStylePrefix>
             <PortraitIndex>0</PortraitIndex>
             <IconAtlas>NATO_CIV_COLOR_ATLAS</IconAtlas>
-            <AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
-            <MapImage>MapEngland512.dds</MapImage>
+            <AlphaIconAtlas>EXPANSION_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+            <MapImage>MapSweden512.dds</MapImage>
+            <!-- TODO: add the text for this -->
             <DawnOfManQuote>TXT_KEY_CIV5_NATO_TEXT_1</DawnOfManQuote>
             <!-- TODO: replace this
             (https://forums.civfanatics.com/threads/how-to-replace-leaderhead-3d-animations-with-2d-still-images-then-add-2d-leaders.391823/) -->
@@ -94,6 +96,55 @@
             <LeaderheadType>LEADER_STOLTENBERG</LeaderheadType>
         </Row>
     </Civilization_Leaders>
+    <Civilization_Religions>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+        </Row>
+    </Civilization_Religions>
+    <!-- TODO: Add unique spy names for NATO or disable espionage for NATO -->
+    <Civilization_SpyNames>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_1</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_2</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_3</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_4</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_5</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_6</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_7</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_8</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_9</SpyName>
+        </Row>
+    </Civilization_SpyNames>
     <Civilization_Start_Region_Priority>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
