@@ -16,12 +16,12 @@
             <PortraitIndex>0</PortraitIndex>
             <IconAtlas>NATO_CIV_COLOR_ATLAS</IconAtlas>
             <AlphaIconAtlas>EXPANSION_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+            <!-- TODO: change this; this is the map image shown when starting the game with NATO,
+            even in a scenario -->
             <MapImage>MapSweden512.dds</MapImage>
             <!-- TODO: add the text for this -->
             <DawnOfManQuote>TXT_KEY_CIV5_NATO_TEXT_1</DawnOfManQuote>
-            <!-- TODO: replace this
-            (https://forums.civfanatics.com/threads/how-to-replace-leaderhead-3d-animations-with-2d-still-images-then-add-2d-leaders.391823/) -->
-            <DawnOfManImage>DOM_Harald.dds</DawnOfManImage>
+            <DawnOfManImage>Jens_Stoltenberg_DOM.dds</DawnOfManImage>
         </Row>
     </Civilizations>
     <Civilization_CityNames>
