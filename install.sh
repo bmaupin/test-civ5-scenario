@@ -27,7 +27,7 @@ mod_directory="${user_directory}/MODS/$(echo "${mod_name}" | tr '[:upper:]' '[:l
 cp src/Ukraine_29x29.Civ5Map "$maps_directory"
 
 # We have to clean up the mod first because otherwise rename will fail because the files will exist
-rm -rf "${mod_directory}"
+rm -rf "${mod_directory}"/*
 mkdir -p "$mod_directory"
 cp -r src/* "$mod_directory"
 rm "${mod_directory}/Ukraine_29x29.Civ5Map"
