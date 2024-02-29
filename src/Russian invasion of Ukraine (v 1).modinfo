@@ -29,19 +29,13 @@
     <File md5="350d788bcc2625f561ed37b127accdb4" import="1">Art/NATO_45.dds</File>
     <File md5="39450be3eecd23d6597d1aa89caf713b" import="1">Art/NATO_64.dds</File>
     <File md5="1925c2c293c7355c605f31c283c9851a" import="1">Art/NATO_80.dds</File>
-    <File md5="b944c987fed3028e4a8059477471a629" import="0">Jens_Stoltenberg.xml</File>
     <File md5="9216eda3481193a3d712e2414ab56139" import="0">GameText.xml</File>
     <!-- <File md5="CBBE0B63A21D6D95B1DC636CB86EDE46" import="1">Maps/Ukraine_29x29.Civ5Ma</File> -->
-    <File md5="0318e35eccf614f894824e45d2a239d9" import="0">NATO.xml</File>
-    <File md5="8915f58573e760b930dbd1666f7d53e1" import="0">XML/Buildings.xml</File>
-    <File md5="d18ac5b8161f9f78e4ba1329872e80bc" import="0">XML/Units.xml</File>
+    <File md5="fba5888c549badad727cb7599d62007b" import="0">NATO.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
-      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
       <UpdateDatabase>GameText.xml</UpdateDatabase>
-      <UpdateDatabase>Jens_Stoltenberg.xml</UpdateDatabase>
       <UpdateDatabase>NATO.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
