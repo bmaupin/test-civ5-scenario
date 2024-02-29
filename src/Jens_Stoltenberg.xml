@@ -6,6 +6,7 @@
             <Description>TXT_KEY_LEADER_STOLTENBERG</Description>
             <Civilopedia>TXT_KEY_LEADER_STOLTENBERG_PEDIA</Civilopedia>
             <CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_STOLTENBERG</CivilopediaTag>
+            <!-- TODO: Add leader portrait -->
             <ArtDefineTag>Elizabeth_Scene.xml</ArtDefineTag>
             <VictoryCompetitiveness>8</VictoryCompetitiveness>
             <WonderCompetitiveness>7</WonderCompetitiveness>

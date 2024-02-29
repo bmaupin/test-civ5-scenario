@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Buildings>
+        <Row>
+            <Type>BUILDING_PALISADE</Type>
+            <BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
+            <Cost>60</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <Help>TXT_KEY_BUILDING_PALISADE_STRATEGY</Help>
+            <Description>TXT_KEY_BUILDING_PALISADE</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_PALISADE_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+            <MaxStartEra>ERA_ANCIENT</MaxStartEra>
+            <MinAreaSize>-1</MinAreaSize>
+            <AllowsRangeStrike>true</AllowsRangeStrike>
+            <Defense>250</Defense>
+            <CityWall>true</CityWall>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+            <NeverCapture>true</NeverCapture>
+            <PortraitIndex>32</PortraitIndex>
+        </Row>
+    </Buildings>
+    <BuildingClasses>
+        <Row>
+            <Type>BUILDINGCLASS_PALISADE</Type>
+            <DefaultBuilding>BUILDING_PALISADE</DefaultBuilding>
+            <Description>TXT_KEY_BUILDING_PALISADE</Description>
+        </Row>
+    </BuildingClasses>
+</GameData>

@@ -34,5 +34,25 @@
         <Row Tag="TXT_KEY_LEADER_STOLTENBERG">
             <Text>Jens Stoltenberg</Text>
         </Row>
+        <Row Tag="TXT_KEY_UNIT_GAELIC_WARRIOR">
+            <Text>Gaelic Warrior</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_HELP_GAELIC_WARRIOR">
+            <Text>This unit's ability to ignore terrain allows it to quickly rush into enemy lands.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PALISADE">
+            <Text>Palisade</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_PALISADE_STRATEGY">
+            <Text>Palisade's provide an early defense against attackers. Though they are less
+                expensive than walls, they
+                provide only half the defense.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT">
+            <Text>Built of little more than mud and raw lumber palisades were as vulnerable to the
+                weather as they were
+                to enemy attack. Yet they remained popular in border cities if only because they
+                made the people behind them feel more secure.</Text>
+        </Row>
     </Language_en_US>
 </GameData>
