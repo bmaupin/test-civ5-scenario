@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mod_name="Russian invasion of Ukraine (v 1)"
+mod_name="Defence of Ukraine (v 1)"
 
 # user_directory="/home/${USER}/.steam/steam/steamapps/compatdata/8930/pfx/drive_c/users/steamuser/Documents/My Games/Sid Meier's Civilization 5"
 user_directory="/home/${USER}/.local/share/Aspyr/Sid Meier's Civilization 5"
