@@ -102,6 +102,13 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
 
 https://forums.civfanatics.com/threads/irkallas-firaxis-like-civilization-icon-tutorial.492821/
 
+Specs of the Civ 5 civilisation icons:
+
+- Size: 256 x 256
+- Image contains a centred circular icon surrounded by transparency
+- Outer size of icon within image: 172 x 172
+- Icon has a ~4 pixel solid colour border
+
 1. Download image you want to make icon from
 
 1. Download icon template from here: https://forums.civfanatics.com/threads/civilization-icon-template.534796/
@@ -199,3 +206,13 @@ https://forums.civfanatics.com/threads/irkallas-firaxis-like-civilization-icon-t
    1. Click on the `.dds` file and in the _Properties_ pane set _Import into VFS_ to _True_ (this must be done for all images)
 
       ⚠️ If you forget this part, you will get an error: "Unable to load texture"
+
+#### Extract assets from Civ 5
+
+This is useful to compare your assets with the ones from the game to make sure they're properly formatted
+
+1. Download Dragon Unpacker: https://forums.civfanatics.com/threads/extracting-art-assets.536900/
+
+1. Use Dragon Unpacker to extract the `.dds` and corresponding `-index.dds` file for the asset
+
+1. Download CivDdsUnpacker from https://forums.civfanatics.com/threads/dds-unpacker-for-interface-textures.389316/
