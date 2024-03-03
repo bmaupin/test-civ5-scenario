@@ -199,6 +199,26 @@ Specs of the Civ 5 civilisation icons:
 
 1. See below to use the custom image
 
+#### Create leader "scene"
+
+This is the image used for diplomacy
+
+1. Create a 1600x900 image and save it as a DDS file
+
+1. Create a new XML file with these contents:
+
+   ```
+   <LeaderScene FallbackImage="Leader_Scene.dds"></LeaderScene>
+   ```
+
+1. Replace `Leader_Scene.dds` with the name of the image file
+
+1. In the leader definition, set `ArtDefineTag` to the filename of the XML file
+
+   ```
+   <ArtDefineTag>Leader_Scene.xml</ArtDefineTag>
+   ```
+
 #### Create dawn of man image
 
 This is the image shown at the start of the game, and so it doesn't need to be created for AI-only civilisations
@@ -210,9 +230,21 @@ This is the image shown at the start of the game, and so it doesn't need to be c
 
 1. Resize as appropriate; see here: https://forums.civfanatics.com/threads/icon-and-screen-pixel-dimension-reference.499400/
 
-   1. First, resize the image
+   1. Scale the image, keeping the same dimensions
 
-      _Image_ > _Canvas Size_
+      1. _Image_ > _Scale Image_
+
+      1. Set either the _Width_ or the _Height_ to the final desired width or height, allowing the other to adjust automatically to keep the scale
+
+   1. Crop the image
+
+      1. _Image_ > _Canvas Size_
+
+      1. Click the link between _Width_ and _Height_ so that changing one doesn't change the other
+
+      1. Set the image to the exact final dimensions
+
+      1. Click _Center_ or align the image as desired
 
    1. Because DDS images are exported from the selected layer and not the image, the layer needs to be resized as well
 
