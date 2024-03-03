@@ -108,6 +108,11 @@ Specs of the Civ 5 civilisation icons:
 - Image contains a centred circular icon surrounded by transparency
 - Outer size of icon within image: 172 x 172
 - Icon has a ~4 pixel solid colour border
+  - So the inner circle within the icon is about 164 x 164
+
+1. Look at existing icons to get an idea of the end product, e.g. https://www.sporcle.com/games/milc/civ-5-civilization-icons
+
+   1. In particular, decide the primary and secondary colours
 
 1. Download image you want to make icon from
 
@@ -120,6 +125,14 @@ Specs of the Civ 5 civilisation icons:
 1. Copy background colour of source image
 
 1. Fill background colour in template with background colour of source image
+
+   If the background is a circle:
+
+   1. _Colors_ > _Colorize_
+
+   1. Select the colour
+
+   1. Set _Lightness_ to 0 or as desired
 
 1. Go back to source image
 
@@ -143,7 +156,7 @@ Specs of the Civ 5 civilisation icons:
 
    1. In the left Align pane: _Relative to_ > _Image_
 
-   1. Select the layer
+   1. Select the layer by clicking on it
 
    1. Click the button to centre horizontally, and the button to centre vertically
 
@@ -187,8 +200,6 @@ Specs of the Civ 5 civilisation icons:
 
 1. Resize as appropriate; see here: https://forums.civfanatics.com/threads/icon-and-screen-pixel-dimension-reference.499400/
 
-   ⓘ Many images (e.g. civilisation icons) require multiple image sizes. Make sure to export them all.
-
 1. Save as DDS
 
    1. _File_ > _Export As_
@@ -198,6 +209,17 @@ Specs of the Civ 5 civilisation icons:
    1. _Format_ > _RGBA8_
 
    1. _Compression_> _DXT5_
+
+1. If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
+
+```
+filename=NATO_
+convert "${filename}256.dds" -resize 128x128 "${filename}128.dds"
+convert "${filename}256.dds" -resize 80x80 "${filename}80.dds"
+convert "${filename}256.dds" -resize 64x64 "${filename}64.dds"
+convert "${filename}256.dds" -resize 45x45 "${filename}45.dds"
+convert "${filename}256.dds" -resize 32x32 "${filename}32.dds"
+```
 
 1. Import into ModBuddy
 
