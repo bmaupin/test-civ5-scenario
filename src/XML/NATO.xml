@@ -21,7 +21,7 @@
             <MapImage>MapSweden512.dds</MapImage>
             <!-- TODO: add the text for this -->
             <DawnOfManQuote>TXT_KEY_CIV5_NATO_TEXT_1</DawnOfManQuote>
-            <DawnOfManImage>Jens_Stoltenberg_DOM.dds</DawnOfManImage>
+            <DawnOfManImage>NATO_DOM.dds</DawnOfManImage>
         </Row>
     </Civilizations>
     <Civilization_CityNames>

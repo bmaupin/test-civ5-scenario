@@ -100,7 +100,10 @@ See [Modders Guide to Civilization V](https://forums.civfanatics.com/threads/mod
 
 #### Create custom civilisation icon
 
-https://forums.civfanatics.com/threads/irkallas-firaxis-like-civilization-icon-tutorial.492821/
+Resources:
+
+- https://forums.civfanatics.com/threads/irkallas-firaxis-like-civilization-icon-tutorial.492821/
+- https://forums.civfanatics.com/threads/civilization-icon-flag-template-svg.558760/
 
 Specs of the Civ 5 civilisation icons:
 
@@ -196,9 +199,24 @@ Specs of the Civ 5 civilisation icons:
 
 1. See below to use the custom image
 
+#### Create dawn of man image
+
+This is the image shown at the start of the game, and so it doesn't need to be created for AI-only civilisations
+
+- Image should contain the leader, and the leader should be on the left half of the image
+- Image should be 1024 x 768
+
 #### Use custom image
 
 1. Resize as appropriate; see here: https://forums.civfanatics.com/threads/icon-and-screen-pixel-dimension-reference.499400/
+
+   1. First, resize the image
+
+      _Image_ > _Canvas Size_
+
+   1. Because DDS images are exported from the selected layer and not the image, the layer needs to be resized as well
+
+      Right-click the layer > _Layer to Image Size_
 
 1. Save as DDS
 
@@ -210,7 +228,11 @@ Specs of the Civ 5 civilisation icons:
 
    1. _Compression_> _DXT5_
 
-1. If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
+ⓘ If you get errors exporting the image:
+
+1.  Right-click the layer group > _Merge Layer Group_, then try exporting again
+
+1.  If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
 
 ```
 filename=NATO_
