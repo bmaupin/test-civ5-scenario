@@ -1,5 +1,10 @@
 The following files are from or contain content from external sources:
 
 src/Art/*DOM.dds
+src/Art/*_Leader_*.dds
 src/Art/*Scene.dds
 - Generated using Stable Diffusion XL 1.0 via DreamStudio by stability.ai
+
+src/Art/NATO_*.dds
+- Source: https://en.wikipedia.org/wiki/File:Flag_of_NATO.svg
+- Licence: Public domain

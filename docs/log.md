@@ -199,6 +199,89 @@ Specs of the Civ 5 civilisation icons:
 
 1. See below to use the custom image
 
+#### Create custom leader icon
+
+Resources:
+
+- https://forums.civfanatics.com/threads/civilization-v-style-icons-with-gimp.534603/
+- https://forums.civfanatics.com/threads/wodhanns-icon-graphic-tutorial.522695/
+
+Specs of the Civ 5 civilisation icons:
+
+- Size: 256 x 256
+- Image contains a centred circular icon surrounded by transparency
+- Size of circular icon within image: 172 x 172
+- Image contains the top half of the leader's torso up to the top of their head
+- Parts of the leader (typically the head) extend the image for flavour
+  - Can extend up to 20 pixels past the circle
+- Background has a sunburst style
+- Leader has a glow
+- Leaders are drawn in a cartoon style
+
+1. Get the source image
+
+1. Use the foreground selection tool to select the leader from the image
+
+   ⓘ This is really tricky to use but works really well, be sure to read the instructions carefully: https://docs.gimp.org/en/gimp-tool-foreground-select.html
+
+1. _Select_ > _Invert_ and then press delete to delete the background
+
+1. Measure from the top of the leader's head to the bottom of their head
+
+1. Multiply that by 2.5 to calculate the height of the image
+
+   e.g. if the head is 216 pixels high, \* 2.5 = 540
+
+1. Add extra pixels for the overlap
+
+   - If they're wearing a helmet, crown, etc, add about 8%
+   - Otherwise, add about 4%
+
+   e.g. 540 \* 1.04 = 562
+
+1. Note the Y coordinate of the top of the head
+
+   e.g 110
+
+1. _Image_ > _Canvas Size_ and resize image
+
+   1. Note the original width of the image
+
+   1. Set the _Canvas Size_ as appropriate
+
+      e.g. 540 x 562
+
+   1. Click _Center_ to centre the selection
+   1. Under _Offset_ Set the Y to the top of the head
+
+      e.g. -110
+
+   1. Adjust the X offset
+
+      1. Take the original width of the image, divide by 2, subtract the Y coordinate of the centre of the head, divide the result by 2. This is how many pixels the X offset will need to be adjusted
+
+         e.g. 1344 / 2 - 629 = 43 / 2 = 22
+
+      1. Now adjust the X offset by that many pixels
+
+         e.g. -402 + 22 = -380
+
+1. Download this icon template and open it in GIMP: https://forums.civfanatics.com/resources/sukritacts-icon-template.18528/
+
+1. Adjust the template to work with GIMP
+
+   I don't remember exactly what I did, it might be easiest just to copy mine from assets/NATO_Leader.xcf and use that instead
+
+1. Copy the leader image to the icon template as a new layer and resize it, setting the width to 172 and letting the height resize automatically
+
+1. Add a new layer mask to the layer group
+
+1. Show the layer mask, while showing the other layers so the leader image shows on top of the layer mask
+
+1. Select the layer mask
+
+1. Select a small paintbrush and paint white where the top of the leader's head surpasses the layer mask to extend the layer mask
+
 #### Create leader "scene"
 
 This is the image used for diplomacy
