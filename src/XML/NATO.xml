@@ -102,47 +102,46 @@
             <ReligionType>RELIGION_CHRISTIANITY</ReligionType>
         </Row>
     </Civilization_Religions>
-    <!-- TODO: Add unique spy names for NATO or disable espionage for NATO -->
     <Civilization_SpyNames>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_AMERICA_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_AUSTRIA_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_ENGLAND_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_FRANCE_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_GERMANY_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_GREECE_0</SpyName>
+        </Row>
+        <Row>
+            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
+            <SpyName>TXT_KEY_SPY_NAME_NETHERLANDS_0</SpyName>
+        </Row>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
             <SpyName>TXT_KEY_SPY_NAME_SWEDEN_0</SpyName>
         </Row>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_1</SpyName>
+            <SpyName>TXT_KEY_SPY_NAME_AUSTRIA_1</SpyName>
         </Row>
         <Row>
             <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_2</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_3</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_4</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_5</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_6</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_7</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_8</SpyName>
-        </Row>
-        <Row>
-            <CivilizationType>CIVILIZATION_NATO</CivilizationType>
-            <SpyName>TXT_KEY_SPY_NAME_SWEDEN_9</SpyName>
+            <SpyName>TXT_KEY_SPY_NAME_ENGLAND_1</SpyName>
         </Row>
     </Civilization_SpyNames>
     <Civilization_Start_Region_Priority>
