@@ -21,20 +21,19 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="6f0d6d1d03966e61f9918a46ae8a9dbe" import="1">Art/NATO_128.dds</File>
-    <File md5="4fceff9f8056b153919bec10c91b3d7a" import="1">Art/NATO_256.dds</File>
-    <File md5="cfa9ac173e398dce9279aaf54ea556df" import="1">Art/NATO_32.dds</File>
-    <File md5="5eb6e226c7bd4c56037d73642f3631c0" import="1">Art/NATO_45.dds</File>
-    <File md5="fd85af967cff993a75414ea850f81780" import="1">Art/NATO_64.dds</File>
-    <File md5="4c886773965fa6f5ade0d11cd41a858b" import="1">Art/NATO_80.dds</File>
+    <File md5="6f0d6d1d03966e61f9918a46ae8a9dbe" import="1">Art/NATO_Civ_128.dds</File>
+    <File md5="4fceff9f8056b153919bec10c91b3d7a" import="1">Art/NATO_Civ_256.dds</File>
+    <File md5="cfa9ac173e398dce9279aaf54ea556df" import="1">Art/NATO_Civ_32.dds</File>
+    <File md5="5eb6e226c7bd4c56037d73642f3631c0" import="1">Art/NATO_Civ_45.dds</File>
+    <File md5="fd85af967cff993a75414ea850f81780" import="1">Art/NATO_Civ_64.dds</File>
+    <File md5="4c886773965fa6f5ade0d11cd41a858b" import="1">Art/NATO_Civ_80.dds</File>
     <File md5="5cf6956797318c4fd9b2b3bf6a9521b9" import="1">Art/NATO_DOM.dds</File>
     <File md5="7a431cd60a1453364fb26de37aedcc3d" import="1">Art/NATO_Leader_128.dds</File>
     <File md5="cee388df131b51a1554fa5e24f7ca349" import="1">Art/NATO_Leader_256.dds</File>
     <File md5="d8660a172f4ba4ee8ea0595ee1e53be7" import="1">Art/NATO_Leader_64.dds</File>
     <File md5="9a710eef792c77136c66da14fab46735" import="1">Art/NATO_Scene.dds</File>
     <!-- <File md5="CBBE0B63A21D6D95B1DC636CB86EDE46" import="1">Maps/Ukraine_29x29.Civ5Ma</File> -->
-    <File md5="e94c1bec8bbaf2ee98964b8eee405fed" import="0">XML/GameText.xml</File>
-    <File md5="bb6566f5486a16b4c93d3c5f27e3e77d" import="0">XML/NATO.xml</File>
+    <File md5="320dad03c1ac827d4f00b4ccd9c79d22" import="0">XML/NATO.xml</File>
     <File md5="4888a4df5b926e56e9b2e1adde93360d" import="1">XML/NATO_Scene.xml</File>
   </Files>
   <Actions>

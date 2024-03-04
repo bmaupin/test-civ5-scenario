@@ -350,7 +350,7 @@ This is the image shown at the start of the game, and so it doesn't need to be c
 1.  If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
 
 ```
-filename=NATO_
+filename=NATO_Civ_
 convert "${filename}256.dds" -resize 128x128 "${filename}128.dds"
 convert "${filename}256.dds" -resize 80x80 "${filename}80.dds"
 convert "${filename}256.dds" -resize 64x64 "${filename}64.dds"
