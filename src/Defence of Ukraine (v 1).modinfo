@@ -33,7 +33,8 @@
     <File md5="d8660a172f4ba4ee8ea0595ee1e53be7" import="1">Art/NATO_Leader_64.dds</File>
     <File md5="9a710eef792c77136c66da14fab46735" import="1">Art/NATO_Scene.dds</File>
     <!-- <File md5="CBBE0B63A21D6D95B1DC636CB86EDE46" import="1">Maps/Ukraine_29x29.Civ5Ma</File> -->
-    <File md5="208263b0edfbd1f59491dfb5acdeea5e" import="0">XML/NATO.xml</File>
+    <File md5="f82c0958e17ca3044c310a410dc02b96" import="0">XML/GameText.xml</File>
+    <File md5="2b0368f3c3b8831550a437d1a3353f5e" import="0">XML/NATO.xml</File>
     <File md5="4888a4df5b926e56e9b2e1adde93360d" import="1">XML/NATO_Scene.xml</File>
   </Files>
   <Actions>
