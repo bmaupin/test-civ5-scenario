@@ -209,6 +209,14 @@ Specs of the Civ 5 civilisation icons:
 
 1. Change the colour of the crest so that it's only white
 
+   ⓘ Civ will change the colour dynamically to match the colours of the civilisation as needed
+
+1. Scale the crest
+
+   ⓘ The alpha icon size does not correspond to the exact size of the civ icon; it can be even larger than the outer circle of the civ icon
+
+   Scale the crest so that it's up to 176 pixels width and height (within a 256x256 canvas)
+
 1. Make sure the layer is the same size as the image
 
    Right-click the layer > _Layer to Image Size_
@@ -231,6 +239,26 @@ Specs of the Civ 5 civilisation icons:
    convert "${filename}128.dds" -resize 24x24 "${filename}24.dds"
    convert "${filename}128.dds" -resize 16x16 "${filename}16.dds"
    ```
+
+1. In `<Civilizations>` update `AlphaIconAtlas`, e.g.
+
+   ```xml
+   <AlphaIconAtlas>NATO_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+   ```
+
+1. Add the appropriate `<IconTextureAtlases>` entries for each image, e.g.
+
+   ```xml
+   	<Row>
+   		<Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+   		<IconSize>128</IconSize>
+   		<Filename>NATO_Alpha_128.dds</Filename>
+   		<IconsPerRow>1</IconsPerRow>
+   		<IconsPerColumn>1</IconsPerColumn>
+   	</Row>
+   ```
+
+1. Add the images to the `.modinfo` file
 
 #### Create custom leader icon
 
