@@ -180,14 +180,6 @@
             <Alpha>1</Alpha>
         </Row>
     </Colors>
-    <PlayerColors>
-        <Row>
-            <Type>PLAYERCOLOR_NATO</Type>
-            <PrimaryColor>COLOR_PLAYER_NATO_ICON</PrimaryColor>
-            <SecondaryColor>COLOR_PLAYER_NATO_BACKGROUND</SecondaryColor>
-            <TextColor>COLOR_PLAYER_DARK_BLUE_TEXT</TextColor>
-        </Row>
-    </PlayerColors>
     <IconTextureAtlases>
         <Row>
             <Atlas>NATO_CIV_COLOR_ATLAS</Atlas>
@@ -517,6 +509,14 @@
             <TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
         </Row>
     </Leader_Traits>
+    <PlayerColors>
+        <Row>
+            <Type>PLAYERCOLOR_NATO</Type>
+            <PrimaryColor>COLOR_PLAYER_NATO_ICON</PrimaryColor>
+            <SecondaryColor>COLOR_PLAYER_NATO_BACKGROUND</SecondaryColor>
+            <TextColor>COLOR_PLAYER_DARK_BLUE_TEXT</TextColor>
+        </Row>
+    </PlayerColors>
     <Units>
         <!-- TODO: make this unique -->
         <Row>
