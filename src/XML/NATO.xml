@@ -15,12 +15,10 @@
             <ArtStylePrefix>EUROPEAN </ArtStylePrefix>
             <PortraitIndex>0</PortraitIndex>
             <IconAtlas>NATO_CIV_COLOR_ATLAS</IconAtlas>
-            <!-- TODO: do we need to change this? is this the crest that's used in city names when
-            playing as another player? -->
-            <AlphaIconAtlas>EXPANSION_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+            <AlphaIconAtlas>NATO_CIV_ALPHA_ATLAS</AlphaIconAtlas>
             <!-- TODO: change this? wait to see how we start the scenario; this is the map shown
             when the scenario is started -->
-            <MapImage>MapSweden512.dds</MapImage>
+            <MapImage>MapEngland512.dds</MapImage>
             <!-- TODO: change this? wait to see how we start the scenario -->
             <DawnOfManQuote>TXT_KEY_CIV5_NATO_TEXT_1</DawnOfManQuote>
             <DawnOfManImage>NATO_DOM.dds</DawnOfManImage>
@@ -165,6 +163,7 @@
         </Row>
     </Civilization_UnitClassOverrides>
     <Colors>
+        <!-- Blue -->
         <Row>
             <Type>COLOR_PLAYER_NATO_ICON</Type>
             <Red>0</Red>
@@ -172,6 +171,7 @@
             <Blue>0.5647</Blue>
             <Alpha>1</Alpha>
         </Row>
+        <!-- White -->
         <Row>
             <Type>COLOR_PLAYER_NATO_BACKGROUND</Type>
             <Red>1</Red>
@@ -232,6 +232,48 @@
             <IconsPerColumn>1</IconsPerColumn>
         </Row>
         <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>128</IconSize>
+            <Filename>NATO_Alpha_128.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>64</IconSize>
+            <Filename>NATO_Alpha_64.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>48</IconSize>
+            <Filename>NATO_Alpha_48.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>32</IconSize>
+            <Filename>NATO_Alpha_32.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>24</IconSize>
+            <Filename>NATO_Alpha_24.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
+            <Atlas>NATO_CIV_ALPHA_ATLAS</Atlas>
+            <IconSize>16</IconSize>
+            <Filename>NATO_Alpha_16.dds</Filename>
+            <IconsPerRow>1</IconsPerRow>
+            <IconsPerColumn>1</IconsPerColumn>
+        </Row>
+        <Row>
             <Atlas>NATO_LEADER_ATLAS</Atlas>
             <IconSize>256</IconSize>
             <Filename>NATO_Leader_256.dds</Filename>
@@ -272,6 +314,7 @@
             <IconAtlas>NATO_LEADER_ATLAS</IconAtlas>
         </Row>
     </Leaders>
+    <!-- TODO: adjust biases, flavours, traits -->
     <Leader_MajorCivApproachBiases>
         <Row>
             <LeaderType>LEADER_NATO</LeaderType>

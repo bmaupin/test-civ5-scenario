@@ -199,6 +199,39 @@ Specs of the Civ 5 civilisation icons:
 
 1. See below to use the custom image
 
+#### Create custom civ alpha icon
+
+ⓘ This is used by the game to apply a civilisation's crest (the centre portion of the civ icon created above) to certain parts of the UI, such as the label of cities belonging to civilisations other than the current player.
+
+1. Start with the civ icon created above
+
+1. Select only the layer containing the crest (this is basically the centremost portion of the image)
+
+1. Change the colour of the crest so that it's only white
+
+1. Make sure the layer is the same size as the image
+
+   Right-click the layer > _Layer to Image Size_
+
+1. Resize the image to 128x128
+
+   _Image_ > _Scale Image_
+
+1. Make sure only the layer containing the crest is selected
+
+1. Export the image to a DDS file; see [Use custom image](#use-custom-image)
+
+1. Create the other sizes from that image, e.g.
+
+   ```
+   filename=NATO_Alpha_
+   convert "${filename}128.dds" -resize 64x64 "${filename}64.dds"
+   convert "${filename}128.dds" -resize 48x48 "${filename}48.dds"
+   convert "${filename}128.dds" -resize 32x32 "${filename}32.dds"
+   convert "${filename}128.dds" -resize 24x24 "${filename}24.dds"
+   convert "${filename}128.dds" -resize 16x16 "${filename}16.dds"
+   ```
+
 #### Create custom leader icon
 
 Resources:
