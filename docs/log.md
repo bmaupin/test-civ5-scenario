@@ -207,9 +207,19 @@ Specs of the Civ 5 civilisation icons:
 
 1. Select only the layer containing the crest (this is basically the centremost portion of the image)
 
+1. (Optional) Make the image clearer
+
+   1. _Colors_ > _Colorize_
+
+   1. Set _Colour_ to white
+
+   1. (Optional) In _Blending Options_, set _Mode_ to _Merge_ or _Normal_ to make the image clearer
+
 1. Change the colour of the crest so that it's only white
 
    ⓘ Civ will change the colour dynamically to match the colours of the civilisation as needed
+
+   1. _Colors_ > _Desaturate_ > _Color to Gray_
 
 1. Scale the crest
 
@@ -287,7 +297,9 @@ Specs of the Civ 5 civilisation icons:
 
 1. _Select_ > _Invert_ and then press delete to delete the background
 
-1. Measure from the top of the leader's head to the bottom of their head
+1. Use the eraser to clean up any extra pixels that weren't deleted from the background
+
+1. Measure from the top of the leader's head to the bottom of their chin
 
 1. Multiply that by 2.5 to calculate the height of the image
 
@@ -300,13 +312,15 @@ Specs of the Civ 5 civilisation icons:
 
    e.g. 540 \* 1.04 = 562
 
-1. Note the Y coordinate of the top of the head
+1. Note the X and Y coordinate of the centre of top of the head
 
-   e.g 110
+   e.g 629, 110
 
 1. _Image_ > _Canvas Size_ and resize image
 
    1. Note the original width of the image
+
+      e.g. 1344
 
    1. Set the _Canvas Size_ as appropriate
 
@@ -319,13 +333,13 @@ Specs of the Civ 5 civilisation icons:
 
    1. Adjust the X offset
 
-      1. Take the original width of the image, divide by 2, subtract the Y coordinate of the centre of the head, divide the result by 2. This is how many pixels the X offset will need to be adjusted
+      1. Take the original width of the image, divide by 2, subtract the X coordinate of the centre of the head, divide the result by 2. This is how many pixels the X offset will need to be adjusted
 
-         e.g. 1344 / 2 - 629 = 43 / 2 = 22
+         e.g. 1344 / 2 - 629 = 43
 
       1. Now adjust the X offset by that many pixels
 
-         e.g. -402 + 22 = -380
+         e.g. -402 + 43 = -359
 
 1. Download this icon template and open it in GIMP: https://forums.civfanatics.com/resources/sukritacts-icon-template.18528/
 
@@ -335,13 +349,25 @@ Specs of the Civ 5 civilisation icons:
 
 1. Copy the leader image to the icon template as a new layer and resize it, setting the width to 172 and letting the height resize automatically
 
+1. Delete any existing layer mask from the layer group
+
 1. Add a new layer mask to the layer group
 
-1. Show the layer mask, while showing the other layers so the leader image shows on top of the layer mask
+   1. Right-click layer group > _Add Layer Mask_ > select channel _Alpha 1_ > _Add_
 
-1. Select the layer mask
+1. Right-click the layer mask and make sure _Edit Layer Mask_ is checked
+
+1. Move the leader layer above the layer mask so it shows on top of the layer mask
+
+1. Select the layer mask and make sure _Show Layer Mask_ is checked
 
 1. Select a small paintbrush and paint white where the top of the leader's head surpasses the layer mask to extend the layer mask
+
+1. Right-click layer mask > check _Show Layer Mask_
+
+1. Now, select a small black brush and clean up the layer mask
+
+1. Move the leader layer back inside the layer group to the top
 
 #### Create leader "scene"
 
