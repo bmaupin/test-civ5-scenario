@@ -1,0 +1,13 @@
+# These are all deterministically generated from larger images so there's no need for them to be in git
+src/Art/*_Alpha_16.dds
+src/Art/*_Alpha_24.dds
+src/Art/*_Alpha_32.dds
+src/Art/*_Alpha_48.dds
+src/Art/*_Alpha_64.dds
+src/Art/*_Civ_128.dds
+src/Art/*_Civ_32.dds
+src/Art/*_Civ_45.dds
+src/Art/*_Civ_64.dds
+src/Art/*_Civ_80.dds
+src/Art/*_Leader_128.dds
+src/Art/*_Leader_64.dds

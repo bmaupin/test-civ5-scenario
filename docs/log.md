@@ -239,17 +239,6 @@ Specs of the Civ 5 civilisation icons:
 
 1. Export the image to a DDS file; see [Use custom image](#use-custom-image)
 
-1. Create the other sizes from that image, e.g.
-
-   ```
-   filename=NATO_Alpha_
-   convert "${filename}128.dds" -resize 64x64 "${filename}64.dds"
-   convert "${filename}128.dds" -resize 48x48 "${filename}48.dds"
-   convert "${filename}128.dds" -resize 32x32 "${filename}32.dds"
-   convert "${filename}128.dds" -resize 24x24 "${filename}24.dds"
-   convert "${filename}128.dds" -resize 16x16 "${filename}16.dds"
-   ```
-
 1. In `<Civilizations>` update `AlphaIconAtlas`, e.g.
 
    ```xml
@@ -432,18 +421,20 @@ This is the image shown at the start of the game, and so it doesn't need to be c
 
 ⓘ If you get errors exporting the image:
 
-1.  Right-click the layer group > _Merge Layer Group_, then try exporting again
+1. Right-click the layer group > _Merge Layer Group_, then try exporting again
 
-1.  If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
+1. If it's an image that requires multiple sizes (according to the link in the first step), create the other images from the first, e.g.
 
-```
-filename=NATO_Civ_
-convert "${filename}256.dds" -resize 128x128 "${filename}128.dds"
-convert "${filename}256.dds" -resize 80x80 "${filename}80.dds"
-convert "${filename}256.dds" -resize 64x64 "${filename}64.dds"
-convert "${filename}256.dds" -resize 45x45 "${filename}45.dds"
-convert "${filename}256.dds" -resize 32x32 "${filename}32.dds"
-```
+   👉 This is now handled automatically by the install script
+
+   ```
+   filename=NATO_Civ_
+   convert "${filename}256.dds" -resize 128x128 "${filename}128.dds"
+   convert "${filename}256.dds" -resize 80x80 "${filename}80.dds"
+   convert "${filename}256.dds" -resize 64x64 "${filename}64.dds"
+   convert "${filename}256.dds" -resize 45x45 "${filename}45.dds"
+   convert "${filename}256.dds" -resize 32x32 "${filename}32.dds"
+   ```
 
 1. Import into ModBuddy
 
