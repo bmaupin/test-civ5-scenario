@@ -35,5 +35,8 @@
         <Row Tag="TXT_KEY_LEADER_NATO">
             <Text>Jens Stoltenberg</Text>
         </Row>
+        <Row Tag="TXT_KEY_LEADER_NATO_FIRSTGREETING_1">
+            <Text>Greetings. The North Atlantic Treaty Organisation stands in solidarity with the people of Ukraine against the Russian invaders.</Text>
+        </Row>
     </Language_en_US>
 </GameData>

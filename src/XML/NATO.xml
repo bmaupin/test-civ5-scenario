@@ -180,6 +180,12 @@
             <Alpha>1</Alpha>
         </Row>
     </Colors>
+    <Diplomacy_Responses>
+        <Row LeaderType="LEADER_NATO">
+            <ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+            <Response>TXT_KEY_LEADER_NATO_FIRSTGREETING_%</Response>
+        </Row>
+    </Diplomacy_Responses>
     <IconTextureAtlases>
         <Row>
             <Atlas>NATO_CIV_COLOR_ATLAS</Atlas>
