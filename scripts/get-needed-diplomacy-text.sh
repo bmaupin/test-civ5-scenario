@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+# Simple script for determining which diplomacy "responses" don't have matching generic
+# text, in other words the minimum amount of diplomacy response text that needs to be
+# added for a new civilisation.
+#
+# Output:
+# No response text key found for RESPONSE_DEFEATED
+# No response text key found for RESPONSE_FIRST_GREETING
+
 game_directory="/home/$USER/.local/share/Steam/steamapps/common/Sid Meier's Civilization V"
 
 echo "Getting all response types ..."
@@ -34,17 +42,19 @@ for response_type in $response_types; do
     response_text_found=false
     # echo "$response_type"
     for response_type_file in $response_type_files; do
-        # Get the matching Response text key for the ResponseType for the generic leader
-        generic_response_txt_key=$(yq ".GameData.Diplomacy_Responses.Row[] | select(.+@LeaderType == \"GENERIC\") | select (.ResponseType == \"${response_type}\").Response" "$response_type_file" | sed 's/%$//')
-        if [[ -n $generic_response_txt_key ]]; then
-            # echo "$generic_response_txt_key"
-            for dialogue_file in "./steamassets/assets/dlc/expansion2/gameplay/xml/text/en_us/leaderdialog/civ5_dialog__generic.xml" "./steamassets/assets/dlc/expansion/gameplay/xml/text/en_us/leaderdialog/civ5_dialog__generic.xml" "./steamassets/assets/gameplay/xml/newtext/en_us/leaderdialog/civ5_dialog__generic.xml"; do
-                if grep -q "$generic_response_txt_key" "${game_directory}/$(echo "${dialogue_file}" | tr -d ' ')"; then
-                    # echo "found in ${dialogue_file}"
-                    response_text_found=true
-                    # If we've found response text we don't need to check any more dialogue files
-                    break
-                fi
+        # Get the matching Response text keys for the ResponseType for the generic leader
+        generic_response_txt_keys=$(yq -o yaml ".GameData.Diplomacy_Responses.Row[] | select(.+@LeaderType == \"GENERIC\") | select (.ResponseType == \"${response_type}\").Response" "$response_type_file" | sed 's/%$//')
+        if [[ -n $generic_response_txt_keys ]]; then
+            for generic_response_txt_key in $generic_response_txt_keys; do
+                # echo "$generic_response_txt_key"
+                for dialogue_file in "./steamassets/assets/dlc/expansion2/gameplay/xml/text/en_us/leaderdialog/civ5_dialog__generic.xml" "./steamassets/assets/dlc/expansion/gameplay/xml/text/en_us/leaderdialog/civ5_dialog__generic.xml" "./steamassets/assets/gameplay/xml/newtext/en_us/leaderdialog/civ5_dialog__generic.xml"; do
+                    if grep -q "$generic_response_txt_key" "${game_directory}/$(echo "${dialogue_file}" | tr -d ' ')"; then
+                        # echo "found in ${dialogue_file}"
+                        response_text_found=true
+                        # If we've found response text we don't need to check any more dialogue files
+                        break
+                    fi
+                done
             done
             response_txt_key_found=true
             # If we've found the text key, no need to check any more response type files
