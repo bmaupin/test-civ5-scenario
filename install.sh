@@ -16,7 +16,7 @@ for filename in $(find . -type f -iname "*_Alpha_128.dds" | cut -c 3-); do
     convert "${civ_name}_Alpha_128.dds" -resize 16x16 "${civ_name}_Alpha_16.dds"
 done
 
-for filename in $(find . -type f -iname "*_Civ_128.dds" | cut -c 3-); do
+for filename in $(find . -type f -iname "*_Civ_256.dds" | cut -c 3-); do
     civ_name=$(echo "$filename" | cut -d _ -f 1)
     convert "${civ_name}_Civ_256.dds" -resize 128x128 "${civ_name}_Civ_128.dds"
     convert "${civ_name}_Civ_256.dds" -resize 80x80 "${civ_name}_Civ_80.dds"
