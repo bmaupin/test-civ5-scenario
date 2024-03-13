@@ -21,18 +21,18 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="d64ebfd556838364cb1561cee38d39cb" import="1">Art/NATO_Alpha_128.dds</File>
-    <File md5="53c31738843567714b358aeab2c25c1a" import="1">Art/NATO_Alpha_16.dds</File>
-    <File md5="4367fa01636cf5dbc1e6eac789f2b89b" import="1">Art/NATO_Alpha_24.dds</File>
-    <File md5="8e3cf04f200f800b3ffba3b0b0e788d3" import="1">Art/NATO_Alpha_32.dds</File>
-    <File md5="3d5420a3c71892751d5c0814de1a3a62" import="1">Art/NATO_Alpha_48.dds</File>
-    <File md5="eedee7f9f1fdc803c5fd73601d40a02f" import="1">Art/NATO_Alpha_64.dds</File>
-    <File md5="6f0d6d1d03966e61f9918a46ae8a9dbe" import="1">Art/NATO_Civ_128.dds</File>
-    <File md5="4fceff9f8056b153919bec10c91b3d7a" import="1">Art/NATO_Civ_256.dds</File>
-    <File md5="cfa9ac173e398dce9279aaf54ea556df" import="1">Art/NATO_Civ_32.dds</File>
-    <File md5="5eb6e226c7bd4c56037d73642f3631c0" import="1">Art/NATO_Civ_45.dds</File>
-    <File md5="fd85af967cff993a75414ea850f81780" import="1">Art/NATO_Civ_64.dds</File>
-    <File md5="4c886773965fa6f5ade0d11cd41a858b" import="1">Art/NATO_Civ_80.dds</File>
+    <File md5="e6c3d13f41dc4de8cbdcbd75b36622aa" import="1">Art/NATO_Alpha_128.dds</File>
+    <File md5="dd8a330d2167fcd13fb5eff9af962d52" import="1">Art/NATO_Alpha_16.dds</File>
+    <File md5="3bb4d7a959959baf476e520e56beae8a" import="1">Art/NATO_Alpha_24.dds</File>
+    <File md5="cd61d2b2e2f3ee18227351a741bc13e3" import="1">Art/NATO_Alpha_32.dds</File>
+    <File md5="30fcb08b88d29108315bab79dd8a1cf0" import="1">Art/NATO_Alpha_48.dds</File>
+    <File md5="cc49d14fffcd512ba348d95743a0ff53" import="1">Art/NATO_Alpha_64.dds</File>
+    <File md5="20f01fdfba7e11fd637461cb53178e15" import="1">Art/NATO_Civ_128.dds</File>
+    <File md5="2b8a7a1d3044f6010f58c7ab5febf652" import="1">Art/NATO_Civ_256.dds</File>
+    <File md5="7fd2b783158b744b3db3433fd9197ee8" import="1">Art/NATO_Civ_32.dds</File>
+    <File md5="4c93a118e24e31a38de3b350d0a6d56e" import="1">Art/NATO_Civ_45.dds</File>
+    <File md5="7325fd6efeba7080cce9a5c2b72fc0c9" import="1">Art/NATO_Civ_64.dds</File>
+    <File md5="087bdb3c1e698e88d14c9157fd2bcb43" import="1">Art/NATO_Civ_80.dds</File>
     <File md5="5cf6956797318c4fd9b2b3bf6a9521b9" import="1">Art/NATO_DOM.dds</File>
     <File md5="7a431cd60a1453364fb26de37aedcc3d" import="1">Art/NATO_Leader_128.dds</File>
     <File md5="cee388df131b51a1554fa5e24f7ca349" import="1">Art/NATO_Leader_256.dds</File>

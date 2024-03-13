@@ -112,6 +112,8 @@ Specs of the Civ 5 civilisation icons:
 - Outer size of icon within image: 172 x 172
 - Icon has a ~4 pixel solid colour border
   - So the inner circle within the icon is about 164 x 164
+- Logo/crest within inner circle should be at least 2 pixels from edge of inner circle
+  - So no more than 160 x 160
 
 1. Look at existing icons to get an idea of the end product, e.g. https://www.sporcle.com/games/milc/civ-5-civilization-icons
 
@@ -151,17 +153,25 @@ Specs of the Civ 5 civilisation icons:
 
    1. _Edit_ > _Paste As_ > _New Layer_
 
-1. Resize the new layer to 149 x 149
-
 1. Centre the new layer
+
+   1. If the layer is in a layer group, temporarily move it out of the layer group
 
    1. _Tools_ > _Transform Tools_ > _Align_
 
    1. In the left Align pane: _Relative to_ > _Image_
 
-   1. Select the layer by clicking on it
+   1. Select the layer by clicking on it in the main image editing window (not the _Layers_ pane); you should see four small squares at the corners of the selection
 
    1. Click the button to centre horizontally, and the button to centre vertically
+
+   1. If the layer was in a layer group, move it back into the layer group
+
+1. Resize the new layer
+
+   1. _Layer_ > _Scale Layer_
+
+      The size to use will depend on the borders of the original image, but the image in the new layer should generally fill up most of the inner circle, with at least 2 pixels between the image and the edge of the inner circle on all sides
 
 1. Resize oversized layers
 
