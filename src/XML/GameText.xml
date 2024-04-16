@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <Language_en_US>
+        <!-- Belarus -->
+        <Row Tag="TXT_KEY_CITY_NAME_BARANAVICHY">
+            <Text>Baranavichy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GOMEL">
+            <Text>Gomel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_MINSK">
+            <Text>Minsk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_VITEBSK">
+            <Text>Vitebsk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BELARUS_ADJECTIVE">
+            <Text>Belarusian</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BELARUS_DESC">
+            <Text>Republic of Belarus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_BELARUS_SHORT_DESC">
+            <Text>Belarus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BELARUS_LIVED">
+            <Text>1954 - </Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BELARUS_NAME">
+            <Text>Alexander Lukashenko</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BELARUS_SUBTITLE">
+            <Text></Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_BELARUS">
+            <Text>Alexander Lukashenko</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_BELARUS_FIRSTGREETING_1">
+            <Text>Oh, hello. Please accept my apologies, I must get permission from Kremlin to speak with you.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_0">
+            <Text>Hingle McCringleberry</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_1">
+            <Text>L'Carpetron Dookmarriot</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_2">
+            <Text>Coznesster Smiff</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_3">
+            <Text>Nyquillus Dillwad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_4">
+            <Text>Bismo Funyuns</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_5">
+            <Text>Mergatroid Skittle</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_6">
+            <Text>Quiznatodd Bidness</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_7">
+            <Text>Bisquiteen Trisket</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_8">
+            <Text>Fartrell Cluggins</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_BELARUS_9">
+            <Text>D'Glester Hardunkichud</Text>
+        </Row>
         <!-- NATO -->
         <Row Tag="TXT_KEY_CITY_NAME_RIGA">
             <Text>Riga</Text>

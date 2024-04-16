@@ -9,3 +9,8 @@ src/Art/NATO_Alpha_*.dds
 src/Art/NATO_Civ_*.dds
 - Source: https://en.wikipedia.org/wiki/File:Flag_of_NATO.svg
 - Licence: Public domain
+
+src/Art/Belarus_Alpha_*.dds
+src/Art/Belarus_Civ_*.dds
+- Source: https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Belarus_(2020%E2%80%93present).svg
+- Licence: "This work is not an object of copyright according to the Law of the Belarus No. 370-XIII of May 16, 1996 on Copyright and Neighbouring Rights."

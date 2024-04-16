@@ -58,9 +58,10 @@ Just a place to track what's been done so far in this scenario, for my own perso
        - Kursk?: 22,18
        - Krasnodar?: 27,3
      - Belarus
-       - Minsk: 10,23
-       - Baranavichy?: 8,21
-       - Gomel?: 15,19
+       - Minsk: 9,22
+       - Baranavichy: 6,20
+       - Gomel: 14,18
+       - Vitebsk: 12,25
      - NATO
        - Warsaw (Poland): 1, 19
        - Bucharest (Romania): 7,2
@@ -88,6 +89,8 @@ Just a place to track what's been done so far in this scenario, for my own perso
 
 1. Set start year to 2022
 
+   - This requires setting the year in WorldBuilder to 3959 BC; the game starts at 4000 BC, but the information era sets the starting time to ~1981, so we need to do 4000 - (2022 - 1981)
+
 1. Disable Time, Science, Cultural victories
 
 1. Create custom civ and leader (see below)
@@ -113,7 +116,7 @@ Specs of the Civ 5 civilisation icons:
 - Icon has a ~4 pixel solid colour border
   - So the inner circle within the icon is about 164 x 164
 - Logo/crest within inner circle should be at least 2 pixels from edge of inner circle
-  - So no more than 160 x 160
+  - A good range for the image size is between 120 and 160 pixels (height and width)
 
 1. Look at existing icons to get an idea of the end product, e.g. https://www.sporcle.com/games/milc/civ-5-civilization-icons
 
@@ -146,6 +149,28 @@ Specs of the Civ 5 civilisation icons:
    1. Select the background colour with the colour picker tool
 
    1. _Colors_ > _Color to Alpha_
+
+   1. Set _Opacity threshold_ as desired
+
+      Setting it to 0 may yield better results as setting it to 1 may match similar colours
+
+1. Change the colour of the image to one colour
+
+   1. Pick a new colour to use for the image, e.g. using the colour picker
+
+   1. _Colors_ > _Colorize_
+
+   1. Set _Colour_ to white
+
+   1. _OK_
+
+   1. _Colors_ > _Map_ > _Color Exchange_
+
+   1. _From Color_ > pick white
+
+   1. _To Color_ > pick the new colour
+
+   1. _OK_
 
 1. Select a rectangular portion of the source image and copy it
 

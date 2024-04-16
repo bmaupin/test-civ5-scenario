@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="2bab1429-6103-49e0-bf83-2d12e06425a8" version="1">
   <Properties>
     <Name>Defence of Ukraine</Name>
@@ -21,6 +21,22 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="b63e970ca0e7fab54e51a70b53647368" import="1">Art/Belarus_Alpha_128.dds</File>
+    <File md5="0ee72a43d4b5cef3d2e3e67bf725380c" import="1">Art/Belarus_Alpha_16.dds</File>
+    <File md5="7e64e8e1dc054aaf9718c3c9dbc64108" import="1">Art/Belarus_Alpha_24.dds</File>
+    <File md5="83158530cc2a347a3e70a742269617f7" import="1">Art/Belarus_Alpha_32.dds</File>
+    <File md5="a3493af32ca85eef29e10d494de54337" import="1">Art/Belarus_Alpha_48.dds</File>
+    <File md5="292bebcc3ca597d8df10b47e0e005950" import="1">Art/Belarus_Alpha_64.dds</File>
+    <File md5="5dfe60cb9a6ecd35cbec77e57c90954a" import="1">Art/Belarus_Civ_128.dds</File>
+    <File md5="a3c55727458e7a2cecf25eeffc4df2f9" import="1">Art/Belarus_Civ_256.dds</File>
+    <File md5="715f0b3840d484165306b0fb951ed0d6" import="1">Art/Belarus_Civ_32.dds</File>
+    <File md5="eaad547fa307e87a679b525777bbff8b" import="1">Art/Belarus_Civ_45.dds</File>
+    <File md5="17b3b1828d8223c4d3c5e9c1841fe72a" import="1">Art/Belarus_Civ_64.dds</File>
+    <File md5="822918cfb2a4be3837725b44089e7242" import="1">Art/Belarus_Civ_80.dds</File>
+    <File md5="acfe1aa1dda65d28b87beee9a4a169e3" import="1">Art/Belarus_Leader_128.dds</File>
+    <File md5="dcad07b097e775d8467d003df0729dfe" import="1">Art/Belarus_Leader_256.dds</File>
+    <File md5="0db911af40d35d27a55fcedfeb67b563" import="1">Art/Belarus_Leader_64.dds</File>
+    <File md5="85efd92719b97c2288b99959b131bfa6" import="1">Art/Belarus_Scene.dds</File>
     <File md5="e6c3d13f41dc4de8cbdcbd75b36622aa" import="1">Art/NATO_Alpha_128.dds</File>
     <File md5="dd8a330d2167fcd13fb5eff9af962d52" import="1">Art/NATO_Alpha_16.dds</File>
     <File md5="3bb4d7a959959baf476e520e56beae8a" import="1">Art/NATO_Alpha_24.dds</File>
@@ -39,18 +55,21 @@
     <File md5="d8660a172f4ba4ee8ea0595ee1e53be7" import="1">Art/NATO_Leader_64.dds</File>
     <File md5="9a710eef792c77136c66da14fab46735" import="1">Art/NATO_Scene.dds</File>
     <!-- <File md5="CBBE0B63A21D6D95B1DC636CB86EDE46" import="1">Maps/Ukraine_29x29.Civ5Ma</File> -->
-    <File md5="6b0669c3ad517df870c686c3978bf65f" import="0">XML/GameText.xml</File>
+    <File md5="a9666bd74f3827bfcba4cce64b60c75f" import="0">XML/Belarus.xml</File>
+    <File md5="0c7e389612e2a7d11bf0051e927a2743" import="1">XML/Belarus_Scene.xml</File>
+    <File md5="108dc0ac59795cb65d6a30ae837366d5" import="0">XML/GameText.xml</File>
     <File md5="ecd3c49e2abda2389008a037632b5f37" import="0">XML/NATO.xml</File>
     <File md5="4888a4df5b926e56e9b2e1adde93360d" import="1">XML/NATO_Scene.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Belarus.xml</UpdateDatabase>
       <UpdateDatabase>XML/NATO.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <!-- <EntryPoints>
-    <EntryPoint type=7b80354e0e8c467457a3c9f9ea42fa66" file="Maps/Ukraine_29x29.Civ5Map">
+    <EntryPoint type=6f7370977f0b66dc4892f36c19a4a2d4" file="Maps/Ukraine_29x29.Civ5Map">
       <Name>Ukraine (29x29)</Name>
       <Description>Larger Ukraine map</Description>
     </EntryPoint>
